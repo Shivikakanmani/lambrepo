@@ -12,5 +12,6 @@ public class Lambdapro {
 		driver.get("https://ecommerce-playground.lambdatest.io/index.php?route=account/login");
 		driver.findElement(By.name("email")).sendKeys("abc2gmail.com");
    	 driver.findElement(By.name("password")).sendKeys("abcdefg");
+   	 driver.findElement(By.xpath("//*[@id=\"content\"]/div/div[2]/div/div/form/input")).click();
 	}
 }
